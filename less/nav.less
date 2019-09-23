@@ -1,0 +1,34 @@
+// Navigation Styles here
+header {
+    display: flex;
+    padding-bottom: 2%;
+    border-bottom: 1px solid black;
+
+    @media @phone {
+        display: block;
+    }
+    img {
+        // text-align: center;
+        @media @phone {
+            justify-content: center;
+        }
+    }
+    nav {
+        font-size: 2.2rem;
+        display: flex;
+        width: 100%;
+        justify-content: flex-end; 
+        margin: 2% 2% 0 0;
+
+        @media @phone {
+            justify-content: center;
+            margin-left: -10%;
+        }
+        
+        a {
+            text-decoration: none;
+            color: black;
+            margin-left: 6rem;
+        }
+    }
+}

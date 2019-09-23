@@ -1,0 +1,137 @@
+header {
+  display: flex;
+  padding-bottom: 2%;
+  border-bottom: 1px solid black;
+}
+@media (max-width: 500px) {
+  header {
+    display: block;
+  }
+}
+@media (max-width: 500px) {
+  header img {
+    justify-content: center;
+  }
+}
+header nav {
+  font-size: 2.2rem;
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+  margin: 2% 2% 0 0;
+}
+@media (max-width: 500px) {
+  header nav {
+    justify-content: center;
+    margin-left: -10%;
+  }
+}
+header nav a {
+  text-decoration: none;
+  color: black;
+  margin-left: 6rem;
+}
+* {
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+  background-color: #f7f7f7;
+}
+html,
+body {
+  font-family: 'Roboto', sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: 'Indie Flower', cursive;
+}
+h1 {
+  font-size: 4rem;
+}
+h2 {
+  font-size: 3.2rem;
+  padding-bottom: 10px;
+}
+h4 {
+  font-size: 2.5rem;
+  padding-bottom: 10px;
+}
+p {
+  line-height: 1.5;
+  font-size: 1.6rem;
+  padding-bottom: 10px;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+.reverse {
+  flex-direction: row-reverse;
+}
+section {
+  margin-top: 10%;
+  width: 100%;
+  display: flex;
+}
+section .phone {
+  width: 46.2vh;
+  height: 75vh;
+}
+section .feature-text {
+  margin-top: 20%;
+  text-align: center;
+}
+section .feature-text h1 {
+  font-size: 2.5rem;
+}
+footer {
+  width: 100%;
+  height: 15vh;
+  background-color: #d99c58;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 5rem;
+}
+footer .ft-ct {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem 0 3rem;
+}
+footer .ft-ct a {
+  font-size: 2rem;
+  text-decoration: none;
+  color: white;
+  margin: 10px;
+}
+.main {
+  height: 80vh;
+}
+.main .main-content {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20%;
+}
+.main .main-content img {
+  height: 300px;
+}
+.main .main-content #main-about {
+  width: 35%;
+  display: flex;
+  flex-direction: column;
+}
+.main .main-content #main-about #main-text h1 {
+  font-size: 3rem;
+}
+.main .main-content #main-about #main-text h2 {
+  font-size: 2rem;
+}
+.main .main-content #main-about .download-now {
+  height: 150px;
+  width: 150px;
+}

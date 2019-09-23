@@ -1,0 +1,12 @@
+{
+	"folders": [
+		{
+			"name": "BW1",
+			"path": "/Users/jacksonmccomas/Documents/Lambda/Week-4/BW1"
+		}
+	],
+	"settings": {
+		"liveServer.settings.port": 5501,
+		"liveServer.settings.multiRootWorkspaceName": "BW1"
+	}
+}
