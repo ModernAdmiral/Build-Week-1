@@ -1,34 +1,66 @@
 // Navigation Styles here
+#team-header {
+    margin-top: -1vh + 1px;
+}
+
 header {
-    display: flex;
-    padding-bottom: 2%;
-    border-bottom: 1px solid black;
+    margin-top: -20vh;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    background-color: rgb(247, 247, 247);
 
-    @media @phone {
-        display: block;
-    }
-    img {
-        // text-align: center;
-        @media @phone {
-            justify-content: center;
-        }
-    }
-    nav {
-        font-size: 2.2rem;
-        display: flex;
+
+
+    .header-container {
+        height: 5.5rem;
         width: 100%;
-        justify-content: flex-end; 
-        margin: 2% 2% 0 0;
+        border-bottom: 1px solid #eee;
+        padding: 0 1rem;
 
         @media @phone {
-            justify-content: center;
-            margin-left: -10%;
+            height: 12rem;
+            padding: 1rem 0;
         }
-        
-        a {
-            text-decoration: none;
-            color: black;
-            margin-left: 6rem;
-        }
-    }
+
+        .header-wrapper {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 100%;
+            width: 100%;
+
+            @media @phone {
+                flex-direction: column;
+                justify-content: space-around;
+            }
+            .logo {
+            
+                @media @phone {
+
+                }
+            }
+            nav {
+                display: flex;
+                align-items: center;
+                height: 100%;
+                font-size: 2.2em;
+                
+                @media @phone {
+                    height: auto;
+                    margin: 2rem 0;
+                }
+                
+                a {
+                    text-decoration: none;
+                    color: black;
+                    margin-left: 6rem;
+
+                    &:first-child {
+                        margin-left: 0;
+                    }
+                }
+            }
+}
+}
 }

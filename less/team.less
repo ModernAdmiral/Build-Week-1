@@ -1,4 +1,44 @@
-.person {
-    display: flex;
-    flex-flow: row;
+
+.people{
+    padding-top: 4rem;
+
+    .person {
+        display: flex;
+        align-items: center;
+        margin: 80px 8%;
+
+        @media @tablet {
+            flex-direction: column;
+        }
+
+        .profile {
+            margin: 20px;
+            img {
+                height: 200px;
+                min-width: 200px;
+                max-width: 200px;
+                border-radius: 50%;
+            }
+
+            
+            }
+            .profile-text {
+                margin-left: 2.2rem;
+
+                h1 {
+                    font-size: 3.8em;
+                    font-weight: 300;
+                }
+
+                h3 {
+                    margin-top: .5em;
+                    margin-bottom: 1.2em;
+                    font-size: 1.8em;
+                }
+
+                p {
+                    font-size: 1.4em;
+                }
+        }
+    }
 }
